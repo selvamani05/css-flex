@@ -1,13 +1,62 @@
-.Main{
-    background-color: darkorchid;
+.Main {
+    background-color: navy;
     width: 100%;
     display: flex;
-    flex-direction:row;
-    align-items: ;
-    }
-    .1{
-        width: 50%;
-    }
-    .2{
-        width
-    }
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-direction: initial;
+}
+
+.header-2 {
+    color: whitesmoke;
+}
+
+.1 {
+    width: 50%;
+}
+
+.tile-1 {
+    color: whitesmoke;
+}
+
+.tile-2 {
+    color: whitesmoke;
+}
+
+.tile-3 {
+    color: whitesmoke;
+}
+
+.tile-4 {
+    color: whitesmoke;
+}
+
+.tile-5 {
+    color: whitesmoke;
+}
+
+.footer-1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.footer-2 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.footer-3 {
+    text-align: center
+}
