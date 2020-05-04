@@ -1,0 +1,31 @@
+        .heading {
+            color: black;
+            text-align: center;
+        }
+        
+        .contents {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-around;
+            text-align: left;
+        }
+        
+        .left {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+        }
+        
+        .center {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+        }
+        
+        .right {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            align-content: flex-end;
+        }
