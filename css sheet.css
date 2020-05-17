@@ -1,42 +1,374 @@
+h1 {
+    margin: 0;
+}
+
+.boxed {
+    border: 10px solid white;
+    width: 500px;
+    font-size: 10px;
+    margin: 0 auto;
+}
+
 .section-1 {
-    color: darkblue;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: xx-large;
+    font-size: 140px;
+    text-align: center;
+    color: rgb(10, 181, 248);
 }
 
 .section-2 {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    border: solid black 1px;
     width: 100%;
+    border-radius: 5px;
+    border-bottom: 0px;
 }
 
-.section-2_1a {
+.section-a {
+    justify-content: space-between;
+    width: 40%;
+    background-color: wheat;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.section-b {
+    border: solid black 2px;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    align-items: stretch;
+    height: 100%;
+}
+
+.section-c {
+    border: solid black 2px;
+    width: 20%;
+    text-align: center;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.part-1 {
+    border: solid black 1px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: xx-large;
+    align-items: center;
+    height: 90px;
+    border-right: 0px;
 }
 
-.section-2_1 {
-    background-color: lime;
-    width: 33%;
-}
-
-.section-2_2 {
-    width: 20%;
-}
-
-.section-2_2-a {
-    background-color: lightcoral;
-}
-
-.section-2_3 {
-    color: dodgerblue;
-    background-color: magenta;
-    width: 20%;
-}
-
-.section-2_4 {
-    color: lightsalmon;
+.section-d {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: green;
     width: 40%;
+    align-items: center;
+    font-size: 30px;
+}
+
+.box1 {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    border: solid black 1px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.paati {
+    display: flex;
+    flex-direction: row;
+    border: solid black 1px;
+    border-radius: 5px;
+    border-top: 0px;
+}
+
+.paati-sec2 {
+    text-align: center;
+    color: green;
+    border-top: 0px;
+}
+
+.box1-left {
+    border: solid green 1px;
+    border-bottom: 0px;
+}
+
+.paati-sec1 {
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+.arrow {
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-top: 0px;
+}
+
+.right-1 {
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    width: 25%;
+}
+
+.arrow-right {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.right-2 {
+    border: solid black 1px;
+    width: 25%;
+    border-left: 0px;
+}
+
+.right-3 {
+    border: solid black 1px;
+    width: 100%;
+    width: 55%;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.right-1-a {
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+.vinay {
+    border: solid black 1px;
+    border-radius: 5px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.height {
+    border: solid black 1px;
+    border-radius: 5px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.santhi {
+    border: solid black 1px;
+    border-radius: 5px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+.yeka {
+    border: solid black 1px;
+    border-radius: 5px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+
+}
+.ram {
+    display: flex;
+    flex-direction: row;
+}
+.section-4 {
+    border: solid black 1px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    color: skyblue;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.section-5 {
+    border: solid black 1px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-bottom: 0px;
+}
+.rasipalan {
+    display: flex;
+    flex-direction: row;
+    border: solid black 1px;
+    justify-content: stretch;
+    width: 100%;
+    border-radius: 5px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.r-1 {
+    border: solid black 1px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+.r-2 {
+    border: solid black 1px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+.r-3 {
+    border: solid black 1px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+.r-4 {
+    border: solid black 1px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+.r-5 {
+    border: solid black 1px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+.r-6 {
+    border: solid black 1px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+.kaalam {
+    border: solid black 1px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-top: 0px;
+}
+.aapa {
+    border: solid black 1px;
+    background-color: white;
+}
+.aaac {
+    border: solid black 1px;
+}
+.aaea {
+    border: solid black 1px;
+}
+.kaalam-2 {
+    border: solid black 1px;
+    height: 47%;
+    width: 100%;
+}
+.mesh {
+    height: 20px;
+    background-color: skyblue;
+}
+.raagu {
+    color: red;
+    border-bottom: 0px;
+    border-radius: 5px;
+}
+.Gaandu {
+    color: purple;
+    border-top: 0px;
+}
+.child {
+    text-align: center;
+    font-size: 12px;
+    background-color: red;
+    color: whitesmoke;
+}
+.box1-right {
+    border: solid goldenrod 9px;
+}
+.june {
+    border: solid black 1px;
+    height: 45;
+    background-color: yellow;
+    text-align: center;
+    font-size: 20px;
+}
+.monday {
+    border: solid black 1px;
+    background-color: blue;
+    height: 43;
+    border-bottom: 0px;
+    font-size: 20px;
+}
+.valarpirai {
+    border: solid black 1px;
+    background-color: blue;
+    height: 45;
+    text-align: center;
+    font-size: 20px;
+}
+.muslim {
+    border: solid black 1px;
+    background-color: yellow;
+    height: 43;
+    border-bottom: 0px;
+    font-size: 20px;
+}
+.tamil {
+    font-size: 20px;
+}
+.dulam {
+    height: 20px;
+    background-color: pink;
+}
+.rishab {
+    height: 20px;
+    background-color: green;
+}
+.virutcha {
+    height: 20px;
+    background-color: blue;
+}
+.mithun {
+    height: 20px;
+    background-color: pink;
+}
+.dhanus {
+    height: 20px;
+    background-color: yellow;
+}
+.kadaga {
+    height: 20px;
+    background-color: yellow;
+}
+.makara {
+    height: 20px;
+    background-color: pink;
+}
+.simmam {
+    height: 20px;
+    background-color: skyblue;
+}
+.kumba {
+    height: 20px;
+    background-color: green;
+}
+.kanni {
+    height: 20px;
+    background-color: pink;
+}
+.meena {
+    height: 20px;
+    background-color: skyblue;
 }
