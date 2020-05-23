@@ -31,3 +31,29 @@
 .see-more {
     background-color: lawngreen;
 }
+
+.center-part-1 {
+    display: flex;
+}
+
+.center-part-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.center-part-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Photos {
+    display: flex;
+}
+
+.Tag {
+    display: flex;
+}
+
+.Pending {
+    display: flex;
+}
