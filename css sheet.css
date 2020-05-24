@@ -1,24 +1,23 @@
 .full-box {
     display: flex;
     flex-direction: row;
-    height: 100px;
     width: 100%;
+    background-color: lightgray;
 }
 
 .left {
-    height: 30px;
     width: 30%;
 }
 
+.left-upper {}
+
 .center {
-    background-color: indianred;
-    height: 40px;
     width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .right {
-    background-color: hotpink;
-    height: 30px;
     width: 30%;
 }
 
@@ -26,24 +25,52 @@
     display: flex;
     flex-direction: row;
     text-align: center;
+    margin: 10px;
+    margin-left: 0px;
+    align-items: center;
+}
+
+.left-pad {
+    padding: 10px;
 }
 
 .see-more {
-    background-color: lawngreen;
+    background-color: darkgray;
+    text-align: center;
 }
 
 .center-part-1 {
     display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .center-part-2 {
     display: flex;
     flex-direction: row;
+    text-align: center;
+    margin-left: 0px;
+    align-items: center;
+    background-color: white;
+}
+
+.comment {
+    text-align: center;
+    background-color: darkgray;
 }
 
 .center-part-3 {
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.p-3-contents {
+    padding-left: 5px;
 }
 
 .Photos {
@@ -84,4 +111,11 @@
 
 .Sabbath {
     display: flex;
+}
+
+.center-2-p1 {
+    display: flex;
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
 }
