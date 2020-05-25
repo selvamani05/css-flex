@@ -56,8 +56,10 @@
 }
 
 .comment {
-    text-align: center;
     background-color: darkgray;
+    width: 100%;
+    text-align: start;
+    margin: 10px;
 }
 
 .center-part-3 {
@@ -67,6 +69,7 @@
     align-items: center;
     text-align: center;
     background-color: white;
+    padding-bottom: 10px;
 }
 
 .p-3-contents {
@@ -118,4 +121,20 @@
     padding-top: 10px;
     text-align: center;
     align-items: center;
+    padding-top: 10px;
+    background-color: tomato;
+    margin-top: 10px;
+}
+
+.name {
+    margin: 10px;
+    text-align: start;
+}
+
+.p-image {
+    margin-left: 5px;
+}
+
+.center-2-p2 {
+    margin-left: 5px;
 }
