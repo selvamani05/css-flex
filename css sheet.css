@@ -21,6 +21,14 @@
     width: 30%;
 }
 
+.right-1 {
+    font-size: 20px;
+}
+
+.mink {
+    margin-left: 5px;
+}
+
 .Jennifer {
     display: flex;
     flex-direction: row;
@@ -114,6 +122,7 @@
 
 .Sabbath {
     display: flex;
+    align-items: center
 }
 
 .center-2-p1 {
@@ -122,7 +131,7 @@
     text-align: center;
     align-items: center;
     padding-top: 10px;
-    background-color: tomato;
+    background-color: white;
     margin-top: 10px;
 }
 
@@ -137,4 +146,37 @@
 
 .center-2-p2 {
     margin-left: 5px;
+}
+
+.center-2 {
+    background-color: white;
+}
+
+.sponsored {
+    display: flex;
+    padding: 5px;
+}
+
+.sp-m {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.spon {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.sp-4 {
+    margin-top: 5px;
+}
+
+.sp-3 {
+    padding: 5px;
+}
+
+.cont {
+    margin-left: 5px;
+    padding-left: 5px;
 }
