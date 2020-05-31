@@ -1,0 +1,56 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    margin-left: 90px;
+    margin-right: 90px;
+    color: white;
+}
+
+.Goeveni {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image {
+    margin-right: 10px;
+}
+
+.john {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section-1 {
+    background-color: black;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.down-section {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.options {
+    margin-top: 10px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
