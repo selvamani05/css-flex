@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     background-color: black;
     margin-left: 90px;
     margin-right: 90px;
@@ -77,6 +78,14 @@
     width: 50%;
 }
 
+.button_color {
+    background-color: lightsalmon;
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+    height: 35px;
+}
+
 .Event {
     margin-left: 20px;
     margin-right: 20px;
@@ -128,8 +137,6 @@
 .center_side {
     width: 40%;
 }
-
-.doe-login {}
 
 .account {
     padding: 10px;
@@ -187,6 +194,8 @@
 .activity-image {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding: 10px;
 }
 
 .activity-name {
@@ -198,6 +207,7 @@
     flex-direction: column;
     align-items: flex-end;
     padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 .Deo {
@@ -208,6 +218,8 @@
 .Doe-image {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding: 10px;
 }
 
 .doe-login {
@@ -216,6 +228,7 @@
 
 .doe-posts {
     margin-top: 20px;
+    padding: 10px;
 }
 
 .comment {
@@ -223,6 +236,7 @@
     flex-direction: row;
     margin-top: 2px;
     background-color: white;
+    padding: 10px;
 }
 
 .doe-name {
