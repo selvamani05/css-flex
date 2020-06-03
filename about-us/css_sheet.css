@@ -1,0 +1,174 @@
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main_width {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.bkg_clr {
+    background-color: #F1F1F1;
+}
+
+.div1 {
+    width: 100%;
+    border: 1px solid#DEDEDE;
+    margin-top: 120px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 30px;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.contents {
+    margin-top: 35px;
+    padding-bottom: 30px;
+    line-height: 2;
+    font-size: 17px;
+    color: #62656a;
+}
+
+.div1_contents {
+    padding-left: 88px;
+    padding-right: 88px;
+}
+
+.president-heading {
+    font-size: 45px;
+    padding-top: 30px;
+    padding-left: 88px;
+    padding-right: 88px;
+}
+
+.president_left {
+    width: 20%;
+}
+
+.test {
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+    height: 60%;
+    border-radius: 50%;
+    width: 150%;
+    overflow: hidden;
+}
+
+.president_right {
+    width: 80%;
+}
+
+.president {
+    display: flex;
+}
+
+.board {
+    padding-bottom: 30px;
+}
+
+.board-contents {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 17px;
+    color: #62656a;
+}
+
+.directors_heading {
+    color: green;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.chairman {
+    font-size: 10%;
+}
+
+.name_margin {
+    margin: 10px;
+}
+
+.board-image {
+    width: 60%;
+}
+
+.image_board {
+    height: 80%;
+    width: 100%;
+    border-bottom: 1px solid #62656a;
+    position: relative;
+}
+
+.directors_name {
+    font-size: 10px;
+    margin: 20px;
+}
+
+.chairman {
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.emirutus {
+    line-height: 2;
+    margin-right: 20px;
+}
+
+.office {
+    padding-bottom: 30px;
+    margin-bottom: 120px;
+}
+
+.officers {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    font-size: 17px;
+    padding-left: 44px;
+    padding-right: 88px;
+    color: #62656a;
+}
+
+.officers-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.officers-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.posting {
+    font-weight: bolder;
+    text-align: left;
+    font-size: 13px;
+    color: #393333;
+}
+
+.minWidth {
+    min-width: 40%;
+}
+
+.directors-left {
+    margin-top: 10px;
+}

@@ -129,13 +129,14 @@
 }
 
 .left_side {
-    width: 20%;
+    width: 25%;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 10px;
 }
 
 .center_side {
-    width: 40%;
+    width: 50%;
 }
 
 .account {
@@ -227,8 +228,12 @@
 }
 
 .doe-posts {
-    margin-top: 20px;
     padding: 10px;
+}
+
+.rock-items {
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 .comment {
@@ -236,12 +241,53 @@
     flex-direction: row;
     margin-top: 2px;
     background-color: white;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .doe-name {
     font-size: large;
     font-weight: bolder;
+}
+
+.Willam-replybar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid lightgray 1px;
+    padding: 10px;
+}
+
+.william-replybar-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.william-replybar-2 {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.replybar-img {}
+
+.reply-box {
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 70%;
+    border: solid lightgrey 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.reply-button {
+    padding-top: 10px;
+    display: flex;
 }
 
 .like {
@@ -273,7 +319,7 @@
 }
 
 .right_side {
-    width: 30%;
+    width: 25%;
 }
 
 .right_section-1 {
@@ -403,16 +449,21 @@
     border-bottom: solid lightgray 1px;
 }
 
+.news-1 a {
+    text-decoration: none;
+}
+
 .news_word {
     margin-left: 10px;
     font-size: x-large;
+    font-weight: bolder;
 }
 
 .news-2_1 {
     display: flex;
     flex-direction: row;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .news-2_2 {
@@ -420,11 +471,15 @@
     margin-top: 5px;
 }
 
+.news-2_2 a {
+    text-decoration: none;
+}
+
 .news-3_1 {
     display: flex;
     flex-direction: row;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .news-3_2 {
@@ -436,7 +491,7 @@
     display: flex;
     flex-direction: row;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .news-4_2 {
@@ -448,7 +503,7 @@
     display: flex;
     flex-direction: row;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .news-5_2 {
@@ -461,10 +516,12 @@
     justify-content: center;
     margin-top: 5px;
     border-bottom: solid lightgray 1px;
+    padding: 5px;
 }
 
 .news-name {
     margin-left: 10px;
+    font-weight: bold;
 }
 
 .right_section-3 {
