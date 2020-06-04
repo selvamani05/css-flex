@@ -1,0 +1,56 @@
+html,
+css {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.career-opp {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.bgcolor {
+    background-color: #F1F1F1;
+    border: 1px solid #CBCACA;
+}
+
+.career {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-heading {
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.career-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text {
+    font-weight: bold;
+}
+
+.career-section-img {
+    width: 30%;
+}
+
+.img-features {
+    width: 50%;
+}
+
+.career-section-content {
+    width: 70%;
+    line-height: 30px;
+    font-weight: bold;
+    padding-right: 50px;
+    text-align: left;
+    color: #494949;
+    line-height: 35px;
+}
+
+.career-image[]
