@@ -84,6 +84,9 @@ body {
 
 .comm-content {
     min-height: 100px;
+    color: rgb(98, 101, 106);
+    line-height: 25px;
+    padding-bottom: 53px;
 }
 
 .learn-more {
@@ -107,20 +110,25 @@ body {
 }
 
 .joan {
-    border: solid 5px green;
+    border: solid 1px #DEDEDE;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-bottom: 80px;
+}
+
+.joan-chen-image {
+    padding-left: 40px;
 }
 
 .joan-quotes {
     font-size: 25px;
     padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(98, 101, 106);
 }
 
-.quotation {
-    border: 2px solid blue;
-}
+.quotation {}
