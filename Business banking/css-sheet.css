@@ -1,0 +1,38 @@
+html,
+body {
+    font-family: "Open Sans", sans-serif
+}
+
+.main-width {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.bg-color {
+    background-color: #F1F1F1;
+}
+
+.business-banking {
+    border: solid 1px #DEDEDE;
+    margin-top: 120px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.business {
+    font-weight: bold;
+}
+
+.contents {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    line-height: 30px;
+    color: rgb(98, 101, 106);
+    font-size: 17px;
+}
