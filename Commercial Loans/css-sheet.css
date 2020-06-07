@@ -68,8 +68,6 @@
         border: solid 1px black;
     }
     
-    .mail {}
-    
     .rep-images {
         position: relative;
     }
@@ -171,4 +169,44 @@
     
     .request:hover {
         background-color: #e48002;
+    }
+    
+    .commercial {
+        display: flex;
+        position: relative;
+        margin-bottom: 90px;
+    }
+    
+    .comm_image {
+        width: 40%;
+    }
+    
+    .com_img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 270px;
+        left: -60px;
+    }
+    
+    .right {
+        width: 60%;
+    }
+    
+    .test-2 {
+        width: 40%;
+    }
+    
+    .comm-heading {
+        margin-top: 25px;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .comm-wordings {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 20px;
+        line-height: 45px;
     }
