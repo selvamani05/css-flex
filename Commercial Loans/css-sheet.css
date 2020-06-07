@@ -210,3 +210,26 @@
         font-size: 20px;
         line-height: 45px;
     }
+    
+    .build-heading {
+        margin-top: 25px;
+        font-size: 50px;
+        margin-bottom: 10px;
+        padding-left: 50px;
+        width: 60%;
+    }
+    
+    .lending {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .lendtext {
+        background-color: #434343;
+        color: white;
+        padding-top: 200px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 25px;
+    }
