@@ -9,11 +9,11 @@
     }
     
     .bgcolor {
-        background-color: #F1F1F1;
+        background-color: red;
     }
     
     .loans {
-        border: solid 1px #b6b5b7;
+        border: solid 1px blue;
         margin-top: 75px;
     }
     
