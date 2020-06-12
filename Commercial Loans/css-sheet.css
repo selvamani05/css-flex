@@ -9,11 +9,11 @@
     }
     
     .bgcolor {
-        background-color: grey;
+        background-color: greyd;
     }
     
     .loans {
-        border: solid 1px blue;
+        border: solid 1px pink;
         margin-top: 75px;
     }
     
@@ -29,7 +29,7 @@
     }
     
     .content {
-        color: rgb(98, 101, 106);
+        color: rgb(123, 139, 167);
     }
     
     .intro {
