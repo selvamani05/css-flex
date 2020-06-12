@@ -29,7 +29,7 @@
     }
     
     .content {
-        color: rgb(123, 139, 167);
+        color: green(123, 139, 167);
     }
     
     .intro {
