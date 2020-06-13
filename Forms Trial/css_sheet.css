@@ -1,3 +1,32 @@
-.Ram {
-    background-color: aquamarine;
+.form {
+    background-color: #2AA9C6;
+    width: 1900px;
+}
+
+.color {
+    color: white;
+}
+
+.heading {
+    font-size: 50px;
+}
+
+.minWidth {
+    min-width: 30%;
+}
+
+.flexClass {
+    display: flex;
+}
+
+body {
+    width: 30%;
+}
+
+.input-margin {
+    margin-right: 10px;
+}
+
+marginBottom {
+    margin-bottom: 10px;
 }
