@@ -15,6 +15,10 @@
     min-width: 30%;
 }
 
+.restWidth {
+    width: 70%;
+}
+
 .flexClass {
     display: flex;
 }
@@ -27,6 +31,14 @@ body {
     margin-right: 10px;
 }
 
-marginBottom {
+.margin-bot {
     margin-bottom: 10px;
+}
+
+.child-full-width {
+    width: 100%;
+}
+
+.name-width {
+    width: 48%
 }

@@ -10,25 +10,31 @@
 <body>
 
     <form>
-        <div id="yourName" class="flexClass">
+        <div id="yourName" class="flexClass margin-bot">
             <div class="minWidth">
                 <label for="firstName"> Your Name </label>
             </div>
-            <div>
-                <input id="firstName" type="text" placeholder="First Name" class="input-margin" />
-                <input type="text" placeholder="Last Name" />
+            <div class="restWidth">
+                <input id="firstName" type="text" placeholder="First Name" class="input-margin name-width" />
+                <input type="text" placeholder="Last Name" class="name-width" />
             </div>
         </div>
 
-        <div id="yourEmail" class="flexClass">
+        <div id="yourEmail" class="flexClass margin-bot">
             <div class="minWidth">
                 <label for="email"> Your Email</label>
             </div>
-            <div>
-                <input id="email" type="email" placeholder="enter your email" />
+            <div class="restWidth">
+                <input id="email" type="email" placeholder="enter your email" class="child-full-width" />
             </div>
 
         </div>
+        <div class=flexClass ">
+            <div class="minWidth ">
+                Phone*
+            </div>
+        </div>
+
 
     </form>
 
