@@ -1,44 +1,90 @@
-.form {
-    background-color: #2AA9C6;
-    width: 1900px;
-}
-
-.color {
+.full-form {
+    background-color: #1AA3C8;
     color: white;
 }
 
-.heading {
-    font-size: 50px;
+.contact-form {
+    width: 1000px;
+    padding-top: 50px;
+    margin: 0 auto;
+    border: solid 1px black;
 }
 
-.minWidth {
-    min-width: 30%;
+.main-heading {
+    font-size: 35px;
 }
 
-.restWidth {
-    width: 70%;
+.box-height {
+    height: 30px;
 }
 
-.flexClass {
+.name {
+    margin-top: 50px;
     display: flex;
 }
 
-body {
-    width: 30%;
+.label-min-width {
+    min-width: 15%;
 }
 
-.input-margin {
-    margin-right: 10px;
+.first {
+    min-width: 20%;
 }
 
-.margin-bot {
-    margin-bottom: 10px;
-}
-
-.child-full-width {
+.mailbox {
     width: 100%;
 }
 
-.name-width {
-    width: 48%
+.box-width-45 {
+    width: 45%
+}
+
+ph-number {
+    margin-right: 20px;
+}
+
+.phone-number {
+    display: flex;
+}
+
+.phone {
+    margin-top: 50px;
+    display: flex;
+}
+
+.test-1 {
+    width: 5%;
+    border: solid 1px yellow;
+}
+
+.phone-entry {
+    width: 120px;
+    margin-right: 15px;
+}
+
+.name-entry {
+    margin-right: 22px;
+}
+
+.message-box {
+    width: 100%;
+}
+
+.mess-box {
+    width: 50%;
+}
+
+.select-box-wid {
+    width: 30%;
+}
+
+.msg-text {
+    width: 40%;
+    height: 100px;
+}
+
+.verification-box {
+    width: 40%;
+    height: 100px;
+    background-color: sandybrown;
 }

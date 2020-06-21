@@ -1,44 +1,78 @@
 <html>
 
 <head>
-    <title>
-        HTML form trial
-    </title>
+    <title>Forms Trial</title>
     <link rel="stylesheet" href="css_sheet.css">
 </head>
 
 <body>
+    <div class="full-form">
+        <form>
+            <div class="contact-form">
+                <div class="main-heading">
+                    Contact form
+                </div>
+                <div class="name">
+                    <div class="label-min-width box-height">
+                        <label for="first-name">Your name</label>
+                    </div>
+                    <input id="first-name" class="box-height name-entry" type="text" placeholder="First Name">
 
-    <form>
-        <div id="yourName" class="flexClass margin-bot">
-            <div class="minWidth">
-                <label for="firstName"> Your Name </label>
+                    <input class="box-height" type="text" placeholder="Last Name">
+                </div>
+
+                <!-- <div class="name">
+                    <div class="label-min-width">
+                        Your E-mail
+                    </div>
+                    <div class="mailbox">
+                        <input class="box-height box-width-45" type="email" placeholder="your email">
+                    </div>
+
+                </div>
+                <div class="phone">
+                    <div class="label-min-width">
+                        Phone*
+                    </div>
+
+                    <div class="phone-number">
+                        <input class="box-height phone-entry" type="tel" placeholder="###">
+                        <input class="box-height phone-entry" type="tel" placeholder="###">
+                        <input class="box-height phone-entry" type="tel" placeholder="###">
+                    </div>
+                </div>
+
+                <div class="message name">
+                    <div class="label-min-width">
+                        Message Subject*
+                    </div>
+                    <div class="message-box">
+                        <select class="select-box-wid" name="cars">
+                            <option value="v1">Others</option>
+                            <option  value="v2">Saab</option>
+                            <option  value="Mercedes">Mercedes</option>
+                            <option value="v4">Audi</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="message-textbox name">
+                    <div class="label-min-width">
+                        Message*
+                    </div>
+                    <input class="msg-text" type="text" />
+                </div>
+                <div class="verification name">
+                    <div class="label-min-width">
+                        Verificaion*
+                    </div>
+                    <div class="verification-box"></div>
+                </div> -->
+
+
+
+
             </div>
-            <div class="restWidth">
-                <input id="firstName" type="text" placeholder="First Name" class="input-margin name-width" />
-                <input type="text" placeholder="Last Name" class="name-width" />
-            </div>
-        </div>
-
-        <div id="yourEmail" class="flexClass margin-bot">
-            <div class="minWidth">
-                <label for="email"> Your Email</label>
-            </div>
-            <div class="restWidth">
-                <input id="email" type="email" placeholder="enter your email" class="child-full-width" />
-            </div>
-
-        </div>
-        <div class=flexClass ">
-            <div class="minWidth ">
-                Phone*
-            </div>
-        </div>
-
-
-    </form>
-
-
+        </form>
     </div>
 </body>
 
