@@ -88,3 +88,21 @@ ph-number {
     height: 100px;
     background-color: sandybrown;
 }
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.bcg {
+    background-color: 1AA3C8;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: solid 1px white;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
