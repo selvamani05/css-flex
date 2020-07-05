@@ -1,0 +1,24 @@
+.form-full {
+    width: 1300px;
+    margin: 20px auto;
+    border: solid 1px red;
+}
+
+.flex-class {
+    display: flex;
+    flex-direction: row;
+}
+
+.min-width {
+    min-width: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.box-adjustment {
+    margin-left: 50px;
+}
+
+.box-height {
+    height: 25px;
+}
