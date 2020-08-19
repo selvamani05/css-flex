@@ -1,0 +1,24 @@
+.main-width {
+    margin: 0 auto;
+    width: 1200px;
+    font-family: sans-serif;
+    border: 1px solid black;
+}
+
+.main_heading {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.bg_color {
+    background-color: #F1F1F1;
+}
+
+.section-1 {
+    padding-left: 100px;
+}
+
+.image {
+    border: 1px solid black;
+}
