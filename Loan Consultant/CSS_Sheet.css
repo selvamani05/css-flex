@@ -15,10 +15,24 @@
     background-color: #F1F1F1;
 }
 
+.section {
+    display: flex;
+    flex-direction: row;
+}
+
+.font_color {
+    color: white;
+}
+
 .section-1 {
     padding-left: 100px;
 }
 
 .image {
     border: 1px solid black;
+}
+
+.contact {
+    background-color: green;
+    margin-top: 20px;
 }
