@@ -1,4 +1,21 @@
 .page {
     margin: 0 auto;
-    border: 1px solid red;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 150px;
+}
+
+.part-1 {
+    margin-top: 25px;
+    font-size: 22px;
+    line-height: 35px;
+    background-color: #F1F1F1;
+    border: 1px solid #CBCACA;
+    padding: 50px 100px 50px 100px;
+}
+
+.heading {
+    font-size: 50px;
+    margin-bottom: 25px;
+    text-align: center;
 }
