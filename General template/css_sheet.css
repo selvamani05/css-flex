@@ -16,7 +16,7 @@
     text-align: justify;
 }
 
-.heading {
+.main-heading {
     font-size: 50px;
     margin-bottom: 25px;
     text-align: center;
@@ -36,4 +36,18 @@
 
 .bullet-text {
     padding-left: 10px;
+}
+
+.side-heading {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.points {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+ol li {
+    color: red;
 }
