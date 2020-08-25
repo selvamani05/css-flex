@@ -51,3 +51,22 @@
 ol li {
     color: red;
 }
+
+
+/* 
+ol {
+    list-style: none;
+    counter-reset: li
+}
+
+li::before {
+    content: counter(li);
+    color: red;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+
+li {
+    counter-increment: li
+} */
