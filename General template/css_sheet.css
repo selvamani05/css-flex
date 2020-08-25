@@ -44,29 +44,5 @@
 }
 
 .points {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
 }
-
-ol li {
-    color: red;
-}
-
-
-/* 
-ol {
-    list-style: none;
-    counter-reset: li
-}
-
-li::before {
-    content: counter(li);
-    color: red;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em
-}
-
-li {
-    counter-increment: li
-} */
