@@ -3,6 +3,7 @@
     margin-left: 250px;
     margin-right: 250px;
     margin-top: 150px;
+    text-align: justify;
 }
 
 .part-1 {
@@ -12,10 +13,27 @@
     background-color: #F1F1F1;
     border: 1px solid #CBCACA;
     padding: 50px 100px 50px 100px;
+    text-align: justify;
 }
 
 .heading {
     font-size: 50px;
     margin-bottom: 25px;
     text-align: center;
+}
+
+.green-bullet {
+    list-style-image: url('assets/bullet.png');
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.orange-bullet {
+    list-style-image: url('assets/orange-right-arrow-big.png');
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.bullet-text {
+    padding-left: 10px;
 }
