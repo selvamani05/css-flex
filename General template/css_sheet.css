@@ -46,3 +46,32 @@
 .points {
     padding-left: 100px;
 }
+
+.cta-button {
+    margin-top: 20px;
+    height: 50px;
+    width: 180px;
+    background-color: #f38b0bd7;
+    border-radius: 100px;
+    position: relative;
+    border: 0px;
+}
+
+.button-image {
+    height: 35px;
+    background-color: white;
+    border-radius: 100px;
+    position: absolute;
+    left: 10px;
+    bottom: 7px;
+}
+
+.button-text {
+    color: white;
+    font-size: 20px;
+    padding-left: 35px;
+}
+
+.cta-button:hover {
+    background-color: salmon;
+}
