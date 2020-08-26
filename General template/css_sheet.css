@@ -141,7 +141,7 @@ tr {
     text-align-last: center;
 }
 
-.former {
+.full-form {
     border: 5px solid #D8DCDD;
     display: flex;
     width: 100%;
@@ -149,11 +149,12 @@ tr {
 
 .form-left {
     width: 50%;
-    border: 10px solid greenyellow;
+    margin-left: 100px;
 }
 
 .form-right {
     width: 50%;
+    margin-left: 100px;
 }
 
 .test {
