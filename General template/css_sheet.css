@@ -106,8 +106,26 @@ tr {
     text-align: left;
 }
 
-.headline {
+.headline-level-2 {
     margin-top: 25px;
     color: #62656A;
+    font-weight: bold;
+}
+
+.headline-level-3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.headline-level-3-image {
+    height: 250px;
+}
+
+.level-3-text {
+    margin-left: 25px;
+}
+
+.level-3-heading {
     font-weight: bold;
 }
