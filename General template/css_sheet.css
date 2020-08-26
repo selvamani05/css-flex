@@ -1,7 +1,8 @@
 .page {
     margin: 0 auto;
-    margin-left: 250px;
-    margin-right: 250px;
+    width: 1300px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 150px;
     text-align: justify;
 }
@@ -12,7 +13,7 @@
     line-height: 35px;
     background-color: #F1F1F1;
     border: 1px solid #CBCACA;
-    padding: 50px 100px 50px 100px;
+    padding: 50px 100px 100px 100px;
     text-align: justify;
 }
 
@@ -74,4 +75,21 @@
 
 .cta-button:hover {
     background-color: salmon;
+}
+
+.interest-table {
+    width: 700px;
+}
+
+table {
+    border: 5px solid red;
+}
+
+th {
+    text-align: left;
+    color: white;
+}
+
+tr {
+    background-color: green;
 }
