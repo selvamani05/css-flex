@@ -119,7 +119,7 @@ tr {
 }
 
 .headline-level-3-image {
-    height: 250px;
+    height: 200px;
 }
 
 .level-3-text {
@@ -127,5 +127,11 @@ tr {
 }
 
 .level-3-heading {
+    font-weight: bold;
+}
+
+.headline-level-4 {
+    color: green;
+    font-size: 15px;
     font-weight: bold;
 }
