@@ -1,9 +1,7 @@
 .page {
     margin: 0 auto;
-    width: 1300px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 150px;
+    width: 1200px;
+    padding-top: 100px;
     text-align: justify;
 }
 
@@ -13,8 +11,13 @@
     line-height: 35px;
     background-color: #F1F1F1;
     border: 1px solid #CBCACA;
-    padding: 50px 100px 100px 100px;
+    padding: 50px 100px 50px 100px;
     text-align: justify;
+    margin-bottom: 100px;
+}
+
+.text {
+    color: rgb(98, 101, 106);
 }
 
 .main-heading {
@@ -78,18 +81,33 @@
 }
 
 .interest-table {
-    width: 700px;
+    width: 1000px;
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+    border-collapse: collapse;
 }
 
-table {
-    border: 5px solid red;
-}
+table {}
 
 th {
     text-align: left;
     color: white;
+    background-color: green;
+    text-align: center;
 }
 
 tr {
-    background-color: green;
+    background-color: white;
+    background-blend-mode: color;
+}
+
+.description-text {
+    text-align: left;
+}
+
+.headline {
+    margin-top: 25px;
+    color: #62656A;
+    font-weight: bold;
 }
