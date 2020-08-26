@@ -140,3 +140,23 @@ tr {
     color: rgb(98, 101, 106);
     text-align-last: center;
 }
+
+.former {
+    border: 5px solid #D8DCDD;
+    display: flex;
+    width: 100%;
+}
+
+.form-left {
+    width: 50%;
+    border: 10px solid greenyellow;
+}
+
+.form-right {
+    width: 50%;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+}
