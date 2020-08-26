@@ -183,4 +183,9 @@ tr {
     border: 2px solid #B1B1B1;
     height: 40px;
     width: 75%;
+    margin-bottom: 10px;
+}
+
+.days:hover {
+    color: #E48864;
 }
