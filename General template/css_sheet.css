@@ -171,13 +171,15 @@
         flex-direction: column;
         font-size: 18px;
         margin-bottom: 5px;
-        font-size: 15px
+        font-size: 15px;
+        position: relative;
     }
     
     .text-1 {
         border: 2px solid #B1B1B1;
         height: 40px;
         width: 75%;
+        outline: 2px solid #B1B1B1;
     }
     
     .days {
@@ -187,8 +189,9 @@
         margin-bottom: 10px;
     }
     
-    .days:hover {
-        color: #E48864;
+    .days option:hover {
+        color: #E48864 !important;
+        box-shadow: 0 0 10px 100px #1882A8 inset;
     }
     
     .timing {
@@ -216,4 +219,62 @@
         font-size: 15px;
         font-weight: bold;
         border: none;
+    }
+    
+    .disclaimer-text {
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 15px;
+        line-height: 25px;
+        color: rgb(98, 101, 106);
+        position: relative;
+    }
+    
+    .disclaimer-number {
+        position: absolute;
+        top: -10px;
+        left: -10px;
+    }
+    
+    .orange-hast {
+        height: 25px;
+        width: 25px;
+        font-size: 25px;
+        left: 285px;
+        bottom: 25px;
+        background-color: darkorange;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        color: white;
+    }
+    
+    .green-hast {
+        height: 25px;
+        width: 25px;
+        font-size: 25px;
+        left: 285px;
+        bottom: 25px;
+        background-color: darkgreen;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        color: white;
+    }
+    
+    .days-hast {
+        height: 25px;
+        width: 25px;
+        font-size: 25px;
+        left: 286px;
+        bottom: 35px;
+        background-color: darkgreen;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        color: white;
     }
