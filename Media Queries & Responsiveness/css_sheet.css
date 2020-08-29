@@ -48,7 +48,7 @@
 }
 
 .test {
-    behavior: scroll;
-    direction: left;
+    width: 400px;
+    border: 2px solid red;
     background-color: violet;
 }
