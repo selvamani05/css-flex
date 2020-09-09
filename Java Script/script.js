@@ -5,3 +5,5 @@ name = "John";
 admin = name;
 
 alert(admin); // "John"
+
+alert(1 / 0);
