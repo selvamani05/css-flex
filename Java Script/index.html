@@ -56,10 +56,14 @@
 
     <p>Click the button to display the date.</p>
 
-    <button onclick="displayDate()">The time is?</button>
+    <button onmouseover="displayDate()">The time is?</button>
 
     <script>
         function displayDate() {
+            document.getElementById("demo").innerHTML = Date();
+        }
+
+        function onMouseOver() {
             document.getElementById("demo").innerHTML = Date();
         }
     </script>
