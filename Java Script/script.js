@@ -1,4 +1,4 @@
-/* let admin, name; // can declare two variables at once
+/* /* let admin, name; // can declare two variables at once
 
 name = "John";
 
@@ -32,4 +32,4 @@ alert(`You are ${age} years old!`); // You are 100 years old! */
 var _x = "2";
 var _100 = "5": */
 
-alert("10" * "5");
+alert("10" * "5"); * /
