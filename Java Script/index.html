@@ -7,119 +7,25 @@
 </head>
 
 <body>
-    <!-- <script src="script.js">
-    </script>
 
-    <script>
-        'use strict';
-        /* 
-                let age = prompt('How old are you?', 100);
+    <h2>JavaScript Arrays</h2>
 
-                alert(`You are ${age} years old!`); // You are 100 years old! */
-    </script> -->
-    <!-- 
-    <p id="demo"></p>
-    <script>
-        var _lastName = "johnson";
-        var _x = "2";
-        var _100 = "5";
-        document.getElementById("demo").innerHTML = _x + _100
-    </script> -->
-    <!-- 
-    <h2>The ++ Operator</h2>
+    <p>The best way to loop through an array is using a standard for loop:</p>
 
     <p id="demo"></p>
 
     <script>
-        var x = 50;
-        x++;
-        var z = x;
-        document.getElementById("demo").innerHTML = z;
-    </script>
-    <h2>The ** Operator</h2>
+        var fruits, text, fLen, i;
+        fruits = ["Banana", "Orange", "Apple", "Mango"];
+        fLen = fruits.length;
 
-    <p id="demo"></p>
-
-    <script>
-        var x = 50;
-        document.getElementById("demo").innerHTML = x ** 5; -->
-
-    <!--  <p id="demo"></p>
-
-    <script>
-        function myFunction(p1, p2) {
-            return p1 * p2;
+        text = "<ul>";
+        for (i = 0; i < fLen; i++) {
+            text += "<li>" + fruits[i] + "</li>";
         }
-        document.getElementById("demo").innerHTML = myFunction(4, 3);
-    </script>
-    </script> -->
+        text += "</ul>";
 
-    <!-- <p>Click the button to display the date.</p>
-
-    <button onmouseout="displayDate()">The time is?</button>
-
-    <script>
-        var person = "John Doe",
-            carName = "Volvo",
-            price = 200;
-
-
-
-
-        function displayDate() {
-            document.getElementById("demo").innerHTML = Date();
-        }
-
-        function onMousea() {
-            document.getElementById("demo").innerHTML = Date();
-        }
-
-        function myFunction() {
-            document.getElementById("demo1").innerHTML = "Hello Dolly!";
-            document.getElementById("demo2").innerHTML = "How are you?";
-        }
-        1004 -
-            var x = "We are the so-called "
-        Vikings " from the north.";
-
-        var x = "We are the so-called "
-        Vikings " from the north.";
-
-        document.getElementById("demo").innerHTML =
-            "Hello Dolly!";
-
-        var x = 5;
-        var z = Math.pow(x, 2); // result is 25
-    </script>
-
-    <p id="demo"></p> -->
-
-    <p>Convert string to upper case:</p>
-
-    <button onclick="myFunction()">Try it</button>
-
-    <p id="demo">Hello World!</p>
-
-    <script>
-        function myFunction() {
-            var text = document.getElementById("demo").innerHTML;
-            document.getElementById("demo").innerHTML = text.toUpperCase();
-        }
-    </script>
-
-    <h2>JavaScript String.trim()</h2>
-
-    <p>Click the button to alert the string with removed whitespace.</p>
-
-    <button onclick="myFunction()">Try it</button>
-
-    <p><strong>Note:</strong> The trim() method is not supported in Internet Explorer 8 and earlier versions.</p>
-
-    <script>
-        function myFunction() {
-            var str = "     Hello World!     ";
-            alert(str.trim());
-        }
+        document.getElementById("demo").innerHTML = text;
     </script>
 </body>
 
