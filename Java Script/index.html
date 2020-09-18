@@ -35,22 +35,33 @@
     <p id="demo"></p>
 
     <script>
-        var person = [];
-        person["firstName"] = "John";
-        person["lastName"] = "Doe";
-        person["age"] = 46;
-        document.getElementById("demo").innerHTML =
-            person[0] + " " + person.length;
+        /* var person = [];
+                person["firstName"] = "John";
+                person["lastName"] = "Doe";
+                person["age"] = 46;
+                document.getElementById("demo").innerHTML =
+                    person[0] + " " + person.length;
 
 
-        let arr = ["I", "go", "home"];
+                let arr = ["I", "go", "home"];
 
-        delete arr[1]; // remove "go"
+                delete arr[1]; // remove "go"
 
-        alert(arr[1]); // undefined
+                alert(arr[1]); // undefined
 
-        // now arr = ["I",  , "home"];
-        alert(arr.length); // 3
+                // now arr = ["I",  , "home"];
+                alert(arr.length); // 3
+
+         */
+
+        let arr = ["I", "study", "JavaScript"];
+
+        // from index 2
+        // delete 0
+        // then insert "complex" and "language"
+        arr.splice(2, 0, "complex", "language");
+
+        alert(arr); // "I", "study", "complex", "language", "JavaScript"
     </script>
 
 </body>
