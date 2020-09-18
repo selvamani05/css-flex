@@ -41,6 +41,16 @@
         person["age"] = 46;
         document.getElementById("demo").innerHTML =
             person[0] + " " + person.length;
+
+
+        let arr = ["I", "go", "home"];
+
+        delete arr[1]; // remove "go"
+
+        alert(arr[1]); // undefined
+
+        // now arr = ["I",  , "home"];
+        alert(arr.length); // 3
     </script>
 
 </body>
