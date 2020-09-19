@@ -7,63 +7,25 @@
 </head>
 
 <body>
+    <h2>JavaScript Array Methods</h2>
 
-    <h2>JavaScript Arrays</h2>
+    <h2>unshift()</h2>
 
-    <p>The best way to loop through an array is using a standard for loop:</p>
+    <p>The unshift() method adds new elements to the beginning of an array.</p>
+
+    <button onclick="myFunction()">Try it</button>
 
     <p id="demo"></p>
 
     <script>
-        var fruits, text, fLen, i;
-        fruits = ["Banana", "Orange", "Apple", "Mango"];
-        fLen = fruits.length;
+        var fruits = ["Banana", "Orange", "Apple", "Mango"];
+        document.getElementById("demo").innerHTML = fruits;
 
-        text = "<ul>";
-        for (i = 0; i < fLen; i++) {
-            text += "<li>" + fruits[i] + "</li>";
+        function myFunction() {
+            fruits.unshift("Lemon");
+            document.getElementById("demo").innerHTML = fruits;
         }
-        text += "</ul>";
-
-        document.getElementById("demo").innerHTML = text;
     </script>
-
-    <h2>JavaScript Arrays</h2>
-
-    <p>If you use a named index when accessing an array, JavaScript will redefine the array to a standard object, and some array methods and properties will produce undefined or incorrect results.</p>
-
-    <p id="demo"></p>
-
-    <script>
-        /* var person = [];
-                person["firstName"] = "John";
-                person["lastName"] = "Doe";
-                person["age"] = 46;
-                document.getElementById("demo").innerHTML =
-                    person[0] + " " + person.length;
-
-
-                let arr = ["I", "go", "home"];
-
-                delete arr[1]; // remove "go"
-
-                alert(arr[1]); // undefined
-
-                // now arr = ["I",  , "home"];
-                alert(arr.length); // 3
-
-         */
-
-        let arr = ["I", "study", "JavaScript"];
-
-        // from index 2
-        // delete 0
-        // then insert "complex" and "language"
-        arr.splice(2, 0, "complex", "language");
-
-        alert(arr); // "I", "study", "complex", "language", "JavaScript"
-    </script>
-
 </body>
 
 </html>
