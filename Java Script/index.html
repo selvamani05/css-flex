@@ -8,17 +8,13 @@
 
 <body>
     <script>
-        'use strict';
+        let i = 1,
+            n = 5;
 
-        alert(true || true); // true
-        alert(false || true); // true
-        alert(true || false); // true
-        alert(false || false); // false
-
-        let hour = 9;
-
-        if (hour < 10 || hour > 18) {
-            alert('The office is closed.');
+        // while loop from i = 1 to 5
+        while (i <= n) {
+            console.log(i);
+            i += 1;
         }
     </script>
 
