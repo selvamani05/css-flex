@@ -8,86 +8,54 @@
 
 <body>
     <script>
-        /* // program to display numbers
-                                        let i = 1;
-                                        let n = 5;
+        /*  // program for a simple calculator
+                                                                let result;
 
-                                        // do...while loop from 1 to 5
-                                        do {
-                                            console.log(i);
-                                            i++;
-                                        } while (i <= n); */
+                                                                // take the operator input
+                                                                let operator = prompt('Enter operator ( either +, -, * or / ): ');
 
-        // program to find the sum of positive numbers
-        // if the user enters a negative numbers, break ends the loop
-        // the negative number entered is not added to sum
+                                                                // take the operand input
+                                                                let number1 = parseFloat(prompt('Enter first number: '));
+                                                                let number2 = parseFloat(prompt('Enter second number: '));
 
-        /*         let sum = 0;
+                                                                switch (operator) {
+                                                                    case '+':
+                                                                        result = number1 + number2;
+                                                                        console.log(`${number1} + ${number2} = ${result}`);
+                                                                        break;
 
-                while (true) {
+                                                                    case '-':
+                                                                        result = number1 - number2;
+                                                                        console.log(`${number1} - ${number2} = ${result}`);
+                                                                        break;
 
-                    // take input again if the number is positive
-                    number = parseInt(prompt('Enter a number: '));
+                                                                    case '*':
+                                                                        result = number1 * number2;
+                                                                        console.log(`${number1} * ${number2} = ${result}`);
+                                                                        break;
 
-                    // break condition
-                    if (number < 0) {
-                        break;
-                    }
+                                                                    case '/':
+                                                                        result = number1 / number2;
+                                                                        console.log(`${number1} / ${number2} = ${result}`);
+                                                                        break;
 
-                    // add all positive numbers
-                    sum += number;
+                                                                    default:
+                                                                        console.log('Invalid operator');
+                                                                        break;
+                                                                } */
 
-                }
-
-                // display the sum
-                console.log(`The sum is ${sum}.`); */
-
-
-
-        /*   // nested for loops
-
-          // first loop
-          for (let i = 1; i <= 3; i++) {
-
-              // second loop
-              for (let j = 1; j <= 3; j++) {
-                  if (i == 2) {
-                      break;
-                  }
-                  console.log(`i = ${i}, j = ${j}`);
-              }
-          } */
-
-
-
-        // program to calculate positive numbers only
-        // if the user enters a negative number, that number is skipped from calculation
-
-        // negative number -> loop terminate
-        // non-numeric character -> skip iteration
-
-        let sum = 0;
-        let number = 0;
-
-        while (number >= 0) {
-
-            // add all positive numbers
-            sum += number;
-
-            // take input from the user
-            number = parseInt(prompt('Enter a number: '));
-
-            // continue condition
-            if (isNaN(number)) {
-                console.log('You entered a string.');
-                number = 0; // the value of number is made 0 again
-                continue;
-            }
-
+        // multiple case switch program
+        let fruit = 'apple';
+        switch (fruit) {
+            case 'apple':
+            case 'mango':
+            case 'pineapple':
+                console.log(`${fruit} is a fruit.`);
+                break;
+            default:
+                console.log(`${fruit} is not a fruit.`);
+                break;
         }
-
-        // display the sum
-        console.log(`The sum is ${sum}.`);
     </script>
 
 </body>
