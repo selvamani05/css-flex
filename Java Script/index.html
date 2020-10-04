@@ -8,23 +8,16 @@
 
 <body>
     <script>
-        // JavaScript program to find the area of a triangle
+        // taking kilometers input from the user
+        let kilometers = prompt("Enter value in kilometers: ")
 
-        let side1 = prompt('Enter side1: ');
-        let side2 = prompt('Enter side2: ');
-        let side3 = prompt('Enter side3: ');
+        // conversion factor
+        let factor = 0.621371
 
-        // calculate the semi-perimeter
-        let s = (side1 + side2 + side3) / 2;
+        // calculate miles
+        let miles = kilometers * factor
 
-        //calculate the area
-        let areaValue = Math.sqrt(
-            s * (s - side1) * (s - side2) * (s - side3)
-        );
-
-        console.log(
-            `The area of the triangle is ${areaValue}`
-        );
+        console.log(`${kilometers} kilometers is equal to ${miles} miles.`);
     </script>
 </body>
 
