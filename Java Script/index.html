@@ -8,16 +8,41 @@
 
 <body>
     <script>
-        // taking kilometers input from the user
-        let kilometers = prompt("Enter value in kilometers: ")
+        // program for a simple calculator
+        let result;
 
-        // conversion factor
-        let factor = 0.621371
+        // take the operator input
+        let operator = prompt('Enter operator ( either +, -, * or / ): ');
 
-        // calculate miles
-        let miles = kilometers * factor
+        // take the operand input
+        let number1 = parseFloat(prompt('Enter first number: '));
+        let number2 = parseFloat(prompt('Enter second number: '));
 
-        console.log(`${kilometers} kilometers is equal to ${miles} miles.`);
+        switch (operator) {
+            case '+':
+                result = number1 + number2;
+                console.log(`${number1} + ${number2} = ${result}`);
+                break;
+
+            case '-':
+                result = number1 - number2;
+                console.log(`${number1} - ${number2} = ${result}`);
+                break;
+
+            case '*':
+                result = number1 * number2;
+                console.log(`${number1} * ${number2} = ${result}`);
+                break;
+
+            case '/':
+                result = number1 / number2;
+                console.log(`${number1} / ${number2} = ${result}`);
+                break;
+
+            default:
+                console.log('Invalid operator');
+                break;
+        }
     </script>
 </body>
 
