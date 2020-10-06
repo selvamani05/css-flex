@@ -12,18 +12,17 @@
     <p id="demo"></p>
 
     <script>
-        var text;
-        switch (new Date().getDay()) {
-            case 6:
-                text = "Today is Saturday";
-                break;
-            case 0:
-                text = "Today is Sunday";
-                break;
-            default:
-                text = "Looking forward to the Weekend";
+        for (var i = 1; i <= 100; i++) {
+            if (i % 3 === 0 && i % 5 === 0) {
+                console.log(i + " FizzBuzz");
+            } else if (i % 3 === 0) {
+                console.log(i + " Fizz");
+            } else if (i % 5 === 0) {
+                console.log(i + " Buzz");
+            } else {
+                console.log(i);
+            }
         }
-        document.getElementById("demo").innerHTML = text;
     </script>
 </body>
 
