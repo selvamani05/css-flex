@@ -12,23 +12,19 @@
     <p id="demo"></p>
 
     <script>
-        // program to count the number of vowels in a string
+        // program to perform case insensitive string comparison
 
-        function countVowel(str) {
+        const string1 = 'JavaScript Program';
+        const string2 = 'javascript program';
 
-            // find the count of vowels
-            let count = str.match(/[aeiou]/gi).length;
+        // compare both strings
+        let result = string1.toUpperCase() === string2.toUpperCase();
 
-            // return number of vowels
-            return count;
+        if (result) {
+            console.log('The strings are similar.');
+        } else {
+            console.log('The strings are not similar.');
         }
-
-        // take input
-        let string = prompt('Enter a string: ');
-
-        let result = countVowel(string);
-
-        console.log(result);
     </script>
 </body>
 
