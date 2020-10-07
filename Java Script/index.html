@@ -12,18 +12,13 @@
     <p id="demo"></p>
 
     <script>
-        // program to perform case insensitive string comparison
+        for (i = 0; i <= 20; i++) {
+            if (i % 2 === 0) {
+                console.log(i + " " + 'is even');
+            } else {
+                console.log(i + " " + 'is odd')
+            }
 
-        const string1 = 'JavaScript Program';
-        const string2 = 'javascript program';
-
-        // compare both strings
-        let result = string1.toUpperCase() === string2.toUpperCase();
-
-        if (result) {
-            console.log('The strings are similar.');
-        } else {
-            console.log('The strings are not similar.');
         }
     </script>
 </body>
