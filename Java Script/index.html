@@ -6,16 +6,17 @@
 
 </head>
 
+
 <body>
-
     <script>
-        for (var i = 0; i < 5; i++) {
-            for (var j = i; j < 5; j++) {
-                alert(i + " " + j);
-            }
-        }
-    </script>
+        var orig = '   foo  ';
+        console.log(orig.trim()); // 'foo'
 
+        // Another example of .trim() removing whitespace from just one side.
+
+        var orig = 'foo    ';
+        console.log(orig.trim()); // 'foo'
+    </script>
 
 
 </body>
