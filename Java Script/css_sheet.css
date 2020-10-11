@@ -1,0 +1,20 @@
+.body {
+    margin: 0 auto;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 1000px;
+}
+
+.timer {
+    background-image: url(background.jpg);
+}
+
+.heading {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.duration {
+    margin: 750px;
+}
