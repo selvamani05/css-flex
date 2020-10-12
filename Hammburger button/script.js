@@ -5,7 +5,3 @@ hamburger_icon.addEventListener('click'.() => {
     nav.classList.toggle('active');
     hamburger_icon_active.classList.toggle('active');
 })
-
-function myFunction() {
-    getElementById = nav
-}
