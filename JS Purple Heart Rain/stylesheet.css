@@ -1,0 +1,32 @@
+.heart {
+    position: fixed;
+    top: -1vh;
+    transform: translateY(0);
+    font-size: 2rem;
+    animation: fall 3s linear forwards;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(105vh);
+    }
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    position: fixed;
+    bottom: 10px;
+    right: 100px;
+}
+
+.toast {
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    color: white;
+    padding: 5rem;
+}
