@@ -11,26 +11,13 @@
 <body>
     <script src="script.js"></script>
 
-    <div class="mobile-container">
-        <header>
-            <input type="text" id="search-term" />
-            <button id="search"><i class="fas fa-search"></i></button>
-        </header>
-        <div class="fav-container">
-            <h3>Favorite Meals</h3>
-            <ul class="fav-meals" id="fav-meals"></ul>
-        </div>
-        <div class="meals" id="meals"></div>
-    </div>
-
-    <div class="popup-container hidden" id="meal-popup">
-        <div class="popup">
-            <button id="close-popup" class="close-popup">
-          <i class="fas fa-times"></i>
-        </button>
-            <div class="meal-info" id="meal-info"></div>
-        </div>
-    </div>
-</body>
-
+    <h1>todos</h1>
+    <form id="form">
+        <input type="text" id="input" class="input" placeholder="Enter your todo" autocomplete="off" />
+        <ul class="todos" id="todos"></ul>
+    </form>
+    <small>Left click to toggle complete. <br />Right click to delete the
+      todo.</small
+    >
+  </body>
 </html>
