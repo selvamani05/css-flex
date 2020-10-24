@@ -8,7 +8,8 @@ function App() {
     <div className="App">
      <h1>My First React App</h1>
      <p>Welcome!!!</p>
-     <Ninjas name= "Ryu" age="55" belt="Purple"/>
+     <Ninjas name= "Ryan" age="29
+     " belt="Purple"/>
 
      
     </div>
