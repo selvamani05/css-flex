@@ -8,7 +8,7 @@ class Ninjas extends Component{
             <div className="Ninja">
                 <div>Name: {name} </div>
                 <div>Age: {age}</div>
-                <div>Belt: {belt}</div>
+                <div>Belt: {this.props.belt}</div>
             </div>
         )
     }
