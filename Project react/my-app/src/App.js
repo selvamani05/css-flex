@@ -6,7 +6,10 @@ import Ninjas from './Ninjas';
     return (
       <div>
         <h1>Hai</h1>
-        <Ninjas />
+        <Ninjas name="Ryu" age="25" belt="gren" />
+
+
+        <Ninjas name="rtan" age="25" belt="gren" />
       </div>
     )
   }
