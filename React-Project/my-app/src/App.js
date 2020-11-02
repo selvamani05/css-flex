@@ -7,7 +7,7 @@ class App extends Component {
     ninjas: [
       { name: 'Ryu', age: 30, belt: 'black', id: 1 },
       { name: 'Yoshi', age: 20, belt: 'green', id: 2 },
-      { name: 'Crystal', age: 25, belt: 'pink', id: 3 }
+      { name: 'Cheis', age: 25, belt: 'pink', id: 3 }
     ]
   }
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
       <div className="App">
         <h1>My first React app</h1>
         <Ninjas ninjas={this.state.ninjas}/>
-        <AddNinja />
+        <AddNinja /> 
       </div>
     );
   }
