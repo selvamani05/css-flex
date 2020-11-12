@@ -6,7 +6,7 @@ import React, {useState, useEffect} from 'react'
      const [dummyName, setDummyName] = useState('');
      
      useEffect(() => {
-       setDummyName(name + 'poda dei') 
+       setDummyName(name + 'Have a great day') 
 
          
      }, [name])
