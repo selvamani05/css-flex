@@ -47,7 +47,7 @@ const handleSubmit = (event) => {
           name="firstName"
         />
         {/* Uncomment the next line to show the error message */}
-        {submitted ? }<span id="first-name-error">Please enter a first name</span>
+        {submitted && !value/}<span id="first-name-error">Please enter a first name</span>
         <input value={values.lastname}
         onChange={handleLastNameInputChange}
           id="last-name"
