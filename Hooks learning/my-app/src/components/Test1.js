@@ -20,7 +20,7 @@ export default function Test1() {
                 <div>
                     <button onClick={(e) => {handleSubmit(e)}} >Click Hey! ! ! </button>
                 </div> 
-                <h2>I got the name...Your name is  - {fullName} </h2>
+                <h2>I got the full name of yours...Your name is  - {fullName} </h2>
                     {/* <h2>Your last name is  - {lastName} </h2> */}
             </form> 
         </div>
