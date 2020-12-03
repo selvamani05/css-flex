@@ -1,0 +1,33 @@
+.container{
+    position: relative;
+}
+
+.bgcolor {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    font-size: 50vph;
+    margin-top: 0;
+}
+
+.button_color{
+    
+    position: absolute;
+        right: 750px;
+    
+}
+
+.data{
+    background-color: aliceblue
+}
+.downspace{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.test{
+    padding-top: 25px;
+    background-color: thistle;
+}
+.side-heading-fonts{
+    font-weight: bold;
+}
