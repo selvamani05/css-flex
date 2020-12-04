@@ -10,7 +10,7 @@
     margin-top: 0;
 }
 
-.button_color{
+.button_props{
     
     position: absolute;
         right: 750px;
@@ -24,10 +24,40 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.test{
+.userdata{
     padding-top: 25px;
     background-color: thistle;
 }
 .side-heading-fonts{
     font-weight: bold;
+}
+
+.downspace-todo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.button_todo{
+    position: absolute;
+    top: 120px;
+    right: 735px;
+}
+
+
+.todo-data{
+    background-color: lightsteelblue;
+}
+
+.button_photos{
+    position: absolute;
+    top: 185px;
+    left: 705px;
+}
+
+.photos_data{
+    background-color: aqua;
+    
+}
+.photos-first-item{
+    margin-top: 180px;
 }

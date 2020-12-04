@@ -34,12 +34,14 @@ function Axios() {
         <div className="data">
 
         
-          <button className="button_color" onClick = {getdata} >Get Data</button> 
+          <button className="button_props" onClick = {getdata} >Get Users</button> 
 
           
 
-        <div className="test">
-          {data.map(e => <div> 
+        <div >
+
+        <div >
+          {data.map(e => <div className="userdata"> 
              <p className= "side-heading-fonts">Name :{e.name}</p>
 <p className= "side-heading-fonts">UserName :-{e.username}</p>
 <p className= "side-heading-fonts">E-mail:- {e.email}</p>
@@ -62,6 +64,7 @@ function Axios() {
 
 <div className="downspace"></div>
           </div>)}
+          </div>
 
           
 
