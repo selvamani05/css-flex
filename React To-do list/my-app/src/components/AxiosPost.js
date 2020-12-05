@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import axios from 'axios';
+import { Drawer, Button } from 'antd';
 
 function AxiosPost() {
 
@@ -16,7 +17,7 @@ function AxiosPost() {
                 lastName: lastName
               })
               .then(function (response) {
-                alert('Thanks for the data');
+                alert('Give non empty values')
                 setFirstName('')
                 setLastName ('')
               })
@@ -26,6 +27,7 @@ function AxiosPost() {
             
         } else {
             alert('Give non empty values')
+            
         }
 
         
@@ -34,16 +36,18 @@ function AxiosPost() {
     return (
         <div>
             <button onClick={postCall}> POST CALL </button>
-            <form onSubmit={postCall}>
+
+`            <form onSubmit={postCall}>
             <input type='text'  value={firstName} onChange={e => {setFirstName(e.target.value)}}/>
                 <input type='text' value={lastName} onChange={e => {setLastName(e.target.value)}}/>
                 <input type="submit" value="Submit" />
                 
             </form>
 
+            
+
         </div>
     )
 }
 
 export default AxiosPost
-
