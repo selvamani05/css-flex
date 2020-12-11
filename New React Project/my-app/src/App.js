@@ -1,4 +1,9 @@
-import UseEffectTest from './components/UseEffectTest'
+/* import LocalStorageTest from './components/LocalStorageTest' */
+/* import UseEffectTest from './components/UseEffectTest' */
+/* import SimpleForm from "./components/SimpleForm" */
+/* import ArrayExample from './components/ArrayExample' */
+/* import ArrayExample2 from "./components/ArrayExample2" */
+import InputMath from "./components/InputMath"
 
 function App() {
   return (
@@ -7,8 +12,13 @@ function App() {
 
     <div className="App">
 
-      
-      <UseEffectTest />
+      {/* <UseEffectTest/> */}
+      {/* <LocalStorageTest/> */}
+     {/*  <ArrayToLocal/> */}
+    {/*   <SimpleForm/> */}
+  {/*   <ArrayExample/> */}
+  {/* <ArrayExample2/> */}
+  <InputMath/>
     </div>
   );
 }
