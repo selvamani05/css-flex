@@ -6,79 +6,39 @@ function SimpleForm() {
     const [age, setage] = useState('')
     const [sex, setsex] = useState('')
     const [salary, setsalary] = useState('')
-    const [occupation, setoccupation] = useState('')
+    const [occupation, setoccupation] = useState('');
+    const [Array, setArray] = useState([]);
+    const [toggle, setToggle] = useState(false)
+    const [caste, setCaste] = useState('')
+    const [employee, setemployee] = useState(JSON.parse(localStorage.getItem('myEmp')));
+    const [game, setGame] = useState('')
+    
 
-    const myfunction = (e) => {
+    const submitForm = (e) => {
         e.preventDefault();
-       // console.log(salary)
-/* 
-        if(sex == 1){
-            console.log('Male gender')
-        } else if(sex ==2) {
-            console.log('feMale gender')
-        } else {
-            console.log('transgender')
-        } */
-
-        switch (sex) {
-            case '1':{
-                console.log('Male');
-                break;
-            }
-            case '2':{
-                console.log('FeMale');
-                break;
-            }
-            case '3':{
-                console.log('Trans');
-                break;
-            }
-            default:{
-                break;
-            }
+        let temp = {'name': name, 'age': age, 'sex':sex, 'salary':salary, 'occupation':occupation, 'caste':caste,'game':game }
+        setemployee(temp);
+        // setemployee({'name': name, 'age': age, 'sex':sex, 'salary':salary, 'occupation':occupation });
+        localStorage.setItem('myEmp', JSON.stringify(temp));
+        
+        }
+        const dataView = () => {
+            setToggle(true)
         }
 
-        // if(salary == 1){
-        //     console.log('your salary is less than 1000')
-        // } else if(salary == 2){
-        //     console.log('your salary is less than 2000')
-        // } else if( salary == 3){
-        //     console.log('your salary is less than 5000')
-        // } else {
-        //     console.log('your salary is less than 10000')
-        // }
-
-
-        switch(salary){
-            case 'a':{
-                console.log('your salary is less than 1000') 
-                break;
-            }
-            case 'b': {
-                console.log('your salary is less than 2000')
-                break;
-            }
-            case 'c':{
-                    console.log('your salary is less than 5000') 
-                    break;
-            }
-            case 'd': {
-                console.log('your salary is less than 10000') ;
-                break;
-            }
-            default:{
-                break;
-            }
-                
+        const check = () => {
+            if(game == check)
+            alert("Boogay")
         }
-    }
 
+    
+ 
    
 
     return (
     
         <div>
-            <form onSubmit={myfunction}>
+            <form onSubmit={submitForm}>
                 <div>
                 <label>Name</label>
                 <input type="text" value={name} onChange= {e => setname(e.target.value)} />
@@ -93,9 +53,9 @@ function SimpleForm() {
                 <label>Sex</label>
                 {/* <input type="text" value={sex} onChange= {e => setsex(e.target.value)}/> */}
                 <select onChange= {e => setsex(e.target.value)}>
-                    <option value="1">Male</option>
-                    <option value="2">Female</option>
-                    <option value="3">Trans</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Trans">Trans</option>
                 </select>
                 </div>
 
@@ -103,10 +63,10 @@ function SimpleForm() {
                 <label>Salary</label>
                 {/* <input type="text" value={salary} onChange= {e => setsalary(e.target.value)}/> */}
                 <select onChange= {e => setsalary(e.target.value)}>
-                    <option value="a">Below 1000</option>
-                    <option value="b">Below 2000</option>
-                    <option value="c">Below 5000</option>
-                    <option value="d">Below 10000</option>
+                    <option value="Below 1000">Below 1000</option>
+                    <option value="Below 2000">Below 2000</option>
+                    <option value="Below 5000">Below 5000</option>
+                    <option value="Below 10000">Below 10000</option>
                 </select>
                 </div>
 
@@ -115,12 +75,56 @@ function SimpleForm() {
                 <input type="text" value={occupation} onChange= {e => setoccupation(e.target.value)}/>
                 </div>
 
-                <button onClick={myfunction}> Submit</button>
+                <div onChange={e=>  setCaste(e.target.value)}>
+                    Caste: 
+                    <input type="radio"  name="casteRadio" value="1" id="1"/ > Hindu 
+                    <input type="radio" name="casteRadio" value="2" id="2"/>Christia
+                    <input type="radio" name="casteRadio" value="3" id="3"/>Muslim
+                </div>
                 
+                <button onClick={submitForm}> Submit</button>
 
+                <div onChange={e => setGame(e.target.value)}>
+                <input type="checkbox" value="Doss" id="1" name="scales"/> Doss
+                <input type="checkbox" value="Mario" name="scales"/> Mario
+                <input type="checkbox" value="Project IGI" id="1"/> Project IGI 
+
+                </div>
+
+                
+                
             </form>
+
+            <div>
+            The above details are:-
+                <table>
+                <tbody>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Sex</th>
+                        <th>Salary</th>
+                        <th>Occupation</th>
+                        <th>Caster</th>
+                    </tr>
+                    {employee && <tr>
+                        <td>{employee.name}</td>
+                        <td>{employee.age}</td>
+                        <td>{employee.sex}</td>
+                        <td>{employee.salary}</td>
+                        <td>{employee.occupation}</td>
+                        <td>{employee.caste}</td>
+                    </tr>
+                }
+                    
+                    </tbody>
+                </table>
+            </div>
+        <button >button form</button>
+
         </div>
     )
 }
+
 
 export default SimpleForm
