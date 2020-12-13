@@ -87,7 +87,7 @@ function SimpleForm() {
                 <div onChange={e => setGame(e.target.value)}>
                 <input type="checkbox" value="Doss" id="1" name="scales"/> Doss
                 <input type="checkbox" value="Mario" name="scales"/> Mario
-                <input type="checkbox" value="Project IGI" id="1"/> Project IGI 
+                <input type="checkbox" value="Project IGI   " id="1"/> Project IGI 
 
                 </div>
 

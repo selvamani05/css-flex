@@ -4,6 +4,7 @@ import SimpleForm from "./components/SimpleForm"
 /* import ArrayExample from './components/ArrayExample' */
 /* import ArrayExample2 from "./components/ArrayExample2" */
 /* import InputMath from "./components/InputMath" */
+import IncomeTaxCalculator from "./components/IncomeTaxCalculator"
 
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
       {/* <UseEffectTest/> */}
       {/* <LocalStorageTest/> */}
      {/*  <ArrayToLocal/> */}
-      <SimpleForm/>
+    {/*   <SimpleForm/> */}
   {/*   <ArrayExample/> */}
   {/* <ArrayExample2/> */}
 {/*   <InputMath/> */}
+    <IncomeTaxCalculator/>
     </div>
   );
 }

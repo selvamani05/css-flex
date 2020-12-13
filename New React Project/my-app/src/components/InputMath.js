@@ -38,6 +38,7 @@ function InputMath() {
     const dataView =() => {
         // setData(setData ? true : false)
         settoggle(true);
+        
     }
 
     
