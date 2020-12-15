@@ -76,6 +76,12 @@ const [thirdTotal, setthirdTotal] = useState(0);
     }
 }
 
+if (condition) {
+    
+} else {
+    
+}
+
 //Fourth Calculcation//
 
 const [fourthUnit, setFourthunit] = useState();

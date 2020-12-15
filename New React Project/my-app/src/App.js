@@ -5,14 +5,22 @@
 /* import ArrayExample2 from "./components/ArrayExample2" */
 /* import InputMath from "./components/InputMath" */
 /* import IncomeTaxCalculator from "./components/IncomeTaxCalculator" */
-import ProductList from "./components/ProductList"
+// import ProductList from "./components/ProductList"
+import ProductCart from './components/ProductCart'
+
 
 function App() {
+
+
+ 
   return (
 
     
 
     <div className="App">
+
+    
+
 
       {/* <UseEffectTest/> */}
       {/* <LocalStorageTest/> */}
@@ -22,7 +30,8 @@ function App() {
   {/* <ArrayExample2/> */}
 {/*   <InputMath/> */}
   {/*   <IncomeTaxCalculator/> */}
-  <ProductList/>
+  {/* <ProductList/> */}
+  <ProductCart/>
   
     </div>
   );
