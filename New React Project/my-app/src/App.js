@@ -6,8 +6,12 @@
 /* import InputMath from "./components/InputMath" */
 /* import IncomeTaxCalculator from "./components/IncomeTaxCalculator" */
 // import ProductList from "./components/ProductList"
-import ProductCart from './components/ProductCart'
-
+// import ProductCart from './components/ProductCart'
+/* import PropsTesting from './components/PropsTesting'
+import PropTestingTwo from './components/PropTestingTwo' */
+/* import AxiosPropsProject from './components/AxiosProps/AxiosPropsProject' */
+/* import Items from './components/propsSample/Items' */
+import AxiosPropsImageParent from "./components/AxiosProps/AxiosPropsImagesParent"
 
 function App() {
 
@@ -31,8 +35,19 @@ function App() {
 {/*   <InputMath/> */}
   {/*   <IncomeTaxCalculator/> */}
   {/* <ProductList/> */}
-  <ProductCart/>
-  
+  {/* <ProductCart/> */}
+{/*   <PropsTesting showOne={true} showTwo={false}/>
+  <PropsTesting showOne={false} showTwo={true}/>
+  <PropsTesting showOne={true} showTwo={true}/>
+  <PropsTesting showOne={false} showTwo={false}/>
+  <PropsTesting/>
+  <PropTestingTwo/>
+  <PropTestingTwo showTwo={false}/>
+  <PropTestingTwo showOne={true} showTwo={true} showThree={true}/> */}
+
+  {/* <AxiosPropsProject/> */}
+  {/* <Items/> */}
+  <AxiosPropsImageParent/>
     </div>
   );
 }

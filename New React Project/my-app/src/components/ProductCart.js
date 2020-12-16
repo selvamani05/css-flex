@@ -82,7 +82,7 @@ const subractionProduct3 = () => {
         setproduct1(0);
         setproduct2(0);
         setproduct3(0);
-        settotalcart(0);
+        
 
     }
     
