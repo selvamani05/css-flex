@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  
 }
 
 code {
@@ -14,4 +16,44 @@ code {
 
 .App{
 padding: 100px;
+}
+
+.container{
+display: flex;
+/* flex-direction: row; */
+flex-wrap: wrap;
+
+}
+
+.page-border{
+  width: 400px;
+ 
+}
+
+.individual-card{
+  border: 2px solid rebeccapurple;
+  border-style:dotted;
+  min-height: 400px;
+  margin: 25px;
+  
+  }
+
+.card-contents{
+  padding-left: 25px;
+}
+
+.card-url{
+  min-height: 15px;
+}
+
+.card-image{
+  margin-top: 10px;
+  max-height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+  /* background-image: cover; */
+  }
+
+.page-border :hover{
+  background-color: gold;
 }
