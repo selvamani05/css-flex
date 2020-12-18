@@ -12,7 +12,7 @@ useEffect(() => {
  
 }, [])
 
-function getData() {
+function getdata() {
   axios.get('https://jsonplaceholder.typicode.com/todos')
 .then(function (response) {
   // handle success

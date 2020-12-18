@@ -14,6 +14,10 @@ code {
     monospace;
 }
 
+.page{
+  border: solid 2px red;
+}
+
 .App{
 padding: 100px;
 }

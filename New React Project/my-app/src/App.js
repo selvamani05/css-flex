@@ -1,4 +1,5 @@
 /* import LocalStorageTest from './components/LocalStorageTest' */
+import 'antd/dist/antd.css';
 /* import UseEffectTest from './components/UseEffectTest' */
 /* import SimpleForm from "./components/SimpleForm" */
 /* import ArrayExample from './components/ArrayExample' */
@@ -11,7 +12,8 @@
 import PropTestingTwo from './components/PropTestingTwo' */
 /* import AxiosPropsProject from './components/AxiosProps/AxiosPropsProject' */
 /* import Items from './components/propsSample/Items' */
-import AxiosPropsImageParent from "./components/AxiosProps/AxiosPropsImagesParent"
+/* import AxiosPropsImageParent from "./components/AxiosProps/AxiosPropsImagesParent" */
+import PaginationParent from "./components/pagination/PaginationParent"
 
 function App() {
 
@@ -47,7 +49,8 @@ function App() {
 
   {/* <AxiosPropsProject/> */}
   {/* <Items/> */}
-  <AxiosPropsImageParent/>
+  {/* <AxiosPropsImageParent/> */}
+  <PaginationParent/>
     </div>
   );
 }
