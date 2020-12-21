@@ -1,0 +1,61 @@
+body {
+    width: 1500px;
+    font-family: sans-serif;
+}
+
+.contact__text {
+    font-size: 24px;
+    color: #415B84;
+    padding-bottom: 40px;
+    font-weight: bold;
+    margin-left: 450px
+}
+
+.contact__mobile {
+    background-image: url("./contact-no.1.1cf4eb0ad367746c74d1a713fd5985e3.svg");
+    overflow: unset;
+    background-repeat: no-repeat;
+    padding-bottom: 25px;
+    font-weight: bolder;
+    margin-left: 600px;
+    font-size: 38px;
+
+}
+
+.contact__mobile-class {
+
+    padding-top: 10px;
+    padding-left: 25px;
+    margin-bottom: 25px;
+}
+
+.contact__email {
+    font-size: 38px;
+    background-image: url("./contact-middle.svg");
+    background-repeat: no-repeat;
+    font-weight: bolder;
+    padding-bottom: 25px;
+    margin-left: 550px;
+}
+
+.contact__email-class {
+    padding-top: 0px;
+    margin-bottom: 25px;
+}
+
+.contact__location {
+    font-size: 38px;
+    background-image: url("./contact-last.svg");
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    font-weight: bolder;
+    margin-left: 570px;
+
+
+}
+
+.contact__location-class {
+    padding-top: 10px;
+    padding-left: 35px;
+    margin-bottom: 25px;
+}

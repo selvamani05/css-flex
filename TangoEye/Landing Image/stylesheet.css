@@ -58,8 +58,7 @@ body {
     top: -15px;
     width: 75px;
     position: absolute;
-
-}
+    }
 
 .customer-logo :hover {
     transform: scale(1.5, 1.5);
