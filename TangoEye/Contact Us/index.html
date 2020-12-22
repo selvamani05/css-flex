@@ -5,12 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./stylesheet.css">
 </head>
 
 <body>
     <div class="contact-us-container">
+        <script>
+            $(document).ready(function () {
+                $("button.hide").click(function () {
+                    $("div").hide();
+                });
+
+                $("button.show").click(function () {
+                    $("div").show();
+                });
+
+
+            })
+        </script>
+
+
+
+
         <div class="container__full">
             <div class="contact__text">
                 Want to talk? Contact us to know more about the product
@@ -26,6 +44,11 @@
             </div>
         </div>
     </div>
+
+
+    <button class="hide"> Click to find the contact details </button>
+
+    <button class="show">Show All the Details</button>
 </body>
 
 </html>
