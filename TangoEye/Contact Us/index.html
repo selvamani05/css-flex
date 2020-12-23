@@ -8,28 +8,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./stylesheet.css">
+
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#jump").css("color", "red").slideUp(2000).slideDown(2000);
+            });
+        });
+    </script>
 </head>
 
 <body>
+
+
     <div class="contact-us-container">
-        <script>
-            $(document).ready(function () {
-                $("button.hide").click(function () {
-                    $("div").hide();
-                });
 
-                $("button.show").click(function () {
-                    $("div").show();
-                });
+        <button>Jumbo</button>
 
-
-            })
-        </script>
-
-
-
-
-        <div class="container__full">
+        <div class="container__full" id="container__full">
             <div class="contact__text">
                 Want to talk? Contact us to know more about the product
             </div>
@@ -46,9 +42,12 @@
     </div>
 
 
-    <button class="hide"> Click to find the contact details </button>
+    <div>
+        <p id="jump">Hello@Tangoeye.Com </p>
 
-    <button class="show">Show All the Details</button>
+    </div>
+
+
 </body>
 
 </html>
