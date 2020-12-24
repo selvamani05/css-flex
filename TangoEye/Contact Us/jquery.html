@@ -9,18 +9,27 @@
 
     <script>
         $(document).ready(function () {
-            $(".button").click(function () {
-                alert("Given:" + $("#box").val())
+            $("#btn1").click(function () {
+                $("#test1").text("www.google.com");
+            });
+
+            $("#btn2").click(function () {
+                $("#test1").text("www.facebook.com")
             })
-        })
+        });
     </script>
+
+
 </head>
 
 <body>
 
-    <p> <input type="text" id="box" value="Mike"> </p>
+    <p id="test1"> May change</p>
 
-    <button class="button">Get Content</button>
+
+
+    <button id="btn1">Google</button>
+    <button id="btn2">Facebook</button>
 
 
 
