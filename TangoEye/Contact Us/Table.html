@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+
+                var name = $("#name").val();
+                var english = parseInt($("#english").val());
+                var maths = parseInt($("#maths").val());
+                var science = parseInt($("#science").val());
+
+                if (name.length > 0 && english > 0 && maths > 0 && science > 0) {
+
+                    var openTr = '<tr>';
+                    var td1 = '<td>' + name + '</td>';
+                    var td2;
+                    if (english > 35) {
+                        td2 = '<td>' + english + '</td>';
+                    } else {
+                        td2 = '<td style="color:red">' + english + '</td>';
+                    }
+
+                    //  var td2 = '<td>' + english + '</td>';
+
+                    var td3 = maths > 35 ? '<td>' + maths + '</td>' : '<td style="color:red">' + maths +
+                        '</td>'
+                    //var td3 = '<td>' + maths + '</td>';
+                    var td4 = '<td>' + science + '</td>';
+
+
+
+                    var total = english + maths + science;
+
+                    var avg = Math.round(total / 3 * 100) / 100;
+
+                    var totalTd = '<td>' + total + '</td>';
+                    var avgTd = '<td>' + avg + '</td>'
+                    var btnTd = '<td><button class="delete" >Delete</button></td>';
+                    var closeTr = '</tr>';
+                    var content = openTr + td1 + td2 + td3 + td4 + totalTd + avgTd + btnTd +
+                        closeTr;
+
+                    $('#myTbody').append(content);
+
+                    // var test = $('<I></I>');
+                    // test.append("jiji");
+                    // $('#myId').append(test)
+                    $(".reset").val(null);
+
+                    /* if (english < 35 || maths < 35 || science < 35) {
+                        $("td2").css("background color" = "red")
+                    } */
+
+                    $('button.delete').click(function () {
+                        //    $(this).parent().remove();
+                        // alert('hi')
+                        var cRow = $(this).parents('tr');
+                        cRow.remove();
+                    });
+                } else {
+                    alert("Enter valid data");
+                }
+
+
+            });
+
+            // $('button.delete').on('click', function () {
+            //     var cRow = $(this).parents('tr');
+            //     console.log(cRow)
+
+            // });
+        })
+    </script>
+</head>
+
+<body>
+    <form>
+        <input type="text" id="name" class="reset" placeholder="Name" required />
+        <input type="number" id="english" class="reset" min="0" max="100" required placeholder="English" />
+        <input type="number" id="maths" class="reset" min="0" max="100" required placeholder="Maths" />
+        <input type="number" id="science" class="reset" min="0" max="100" required placeholder="Science" />
+
+        <input type="submit" id="btn1" />
+
+
+    </form>
+
+    <div id="tab">
+        <table border="1" id="myTable">
+            <thead>
+                <tr>
+                    <th> Name</th>
+                    <th>English</th>
+                    <th>Maths</th>
+                    <th>Science</th>
+                    <th>Total</th>
+                    <th>Average</th>
+                    <th>Delete</th>
+                </tr>
+
+            </thead>
+            <tbody id="myTbody">
+            </tbody>
+        </table>
+
+        <div id="myId"> </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

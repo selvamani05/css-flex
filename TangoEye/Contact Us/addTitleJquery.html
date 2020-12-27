@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+
+    <script>
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                $("#test1").text("www.google.com").attr({
+
+                    "href": "https://www.google.com/",
+                    "title": "opens in a new window",
+
+                });
+            });
+
+            $("#btn2").click(function () {
+                $("#test1").text("www.facebook.com").attr("href", "https://www.facebook.com/;");
+            });
+            $("#btn3").click(function () {
+                $("#test1").text("www.twitter.com").attr("href", "https://www.twitter.com/");
+            });
+        });
+    </script>
+
+
+</head>
+
+<body>
+
+    <p><a href="https://github.com/" id="test1" target="_blank b">Home Page</a></p>
+
+
+
+
+
+    <button id="btn1">Google</button>
+    <button id="btn2">Facebook</button>
+    <button id="btn3">Twitter</button>
+
+
+
+</body>
+
+</html>
