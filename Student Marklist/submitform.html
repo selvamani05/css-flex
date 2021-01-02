@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <img src="./sample-business-website-header-design.png" alt="header image" class="p-5" />
+    </div>
+    <div>
+        <div class="card">
+            <div class=" d-flex justify-content-around">
+                <table class="table table-secondary">
+                    <thead>
+                        <tr>
+                            <th>Roll.no</th>
+                            <th>Name</th>
+                            <th>Register Number</th>
+                            <th>Class</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="netMarks"></tbody>
+                </table>
+
+            </div>
+        </div>
+
+        <button type="button" id="reset" onclick="reset()">Clear Form</button>
+
+    </div>
+    <script src="./submitform.js"></script>
+</body>
+
+</html>
