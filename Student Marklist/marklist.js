@@ -4,7 +4,7 @@ function subsubmit() {
     var stu = {
         reg : $("#reg").val(),
         name : $("#name").val(),
-        markscored :$("#markScored").val()
+        schoolname :$("#schoolname").val()
     }
     students.push(stu);
     localStorage.setItem("studentsList" , JSON.stringify(students));
