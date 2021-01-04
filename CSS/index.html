@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header-section">
+            <h1>Login or Register</h1>
+        </div>
+
+        <div class="body-section">
+
+            <form class="form-style">
+
+                <div class="padding-class">First Name <input type="text" id="firstname"
+                        placeholder="enter the first name"> </div>
+
+                <div class="padding-class">Last Name <input type=" text" id="lastname"
+                        placeholder="enter the last name "> </div>
+
+                <div class="padding-class" id="r1">Gender
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female ">
+                    <label for="female">Female</label><br>
+                </div>
+
+
+                <div class="padding-class">
+
+                    <label for="DOB">Birthday:</label>
+                    <input type="date" id="DOB" name="DOB">
+
+
+
+                </div>
+
+                <div class="padding-class">
+                    Location
+                    <select id="city">
+                        <option>Select your city</option>
+                        <option value="city1">Chennai</option>
+                        <option value="city2">Mumbai</option>
+                        <option value="city3">Bangalore</option>
+                    </select>
+                </div>
+
+                <div class="padding-class">
+                    Hobbies
+                    <input type="checkbox" name="hobby" id="hobby-1" value="hobby1">
+                    <label for="hobby-1"> Reading Books</label>
+                    <input type="checkbox" name="hobby" id="hobby-2" value="hobby2">
+                    <label for="hobby-2">Singing</label>
+                    <input type="checkbox" name="hobby" id="hobby-3" value="hobby3">
+                    <label for="hobby-3"> Dancing</label>
+                    <!-- <input type="checkbox" name="hobby" value="hobby1"> Reading books
+                    <input type="checkbox" name="hobby" value="hobby2"> singing
+                    <input type="checkbox" name="hobby" value="hobby3"> dancing -->
+                </div>
+
+                <button type="button" onclick="submitForm()">
+                    Submit
+                </button>
+
+            </form>
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

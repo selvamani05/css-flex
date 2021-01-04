@@ -1,0 +1,13 @@
+.container {
+    width: 1350px;
+    margin: 0 auto;
+
+
+}
+
+.container-1 {
+    width: 1400px;
+    margin: 0 auto;
+    border: 2px red solid;
+    /* margin: 1px; */
+}
