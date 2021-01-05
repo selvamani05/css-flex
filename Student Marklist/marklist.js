@@ -1,20 +1,23 @@
- var students = [];
+$( document ).ready(function() {
+    var studentDict = {}
+});
 
-function subsubmit() {
-    var stu = {
-        reg : $("#reg").val(),
-        name : $("#name").val(),
-        schoolname :$("#schoolname").val()
+
+function addSubject() {
+    var sub = {
+        subject : $("#subject").val(),
+        maxMark : $("#maxMark").val(),
+        markScored :$("#markScored").val()
     }
-    students.push(stu);
-    localStorage.setItem("studentsList" , JSON.stringify(students));
-
+    studentDict[$("#reg").val()].subjects.push(sub);
+    localStorage.setItem("studentsList" , JSON.stringify(studentDict));
+    console.log(studentDict)
     var openTr = '<tr>'
-    var td1 = '<td>' + students.length + '</td>';
+    var td1 = '<td>' + studentDict[$("#reg").val()].subjects.length + '</td>';
     var td2 = '<td>' + $("#subject").val() + '</td>';
     var td3 = '<td>' + $("#maxMark").val() + '</td>';
-    var td4 = '<td>' + stu.markscored + '</td>';
-    var td5 = '<td>' + (stu.markscored / $("#maxMark").val()) * 100 + '</td>';
+    var td4 = '<td>' + $("#markScored").val() + '</td>';
+    var td5 = '<td>' + ($("#markScored").val() / $("#maxMark").val()) * 100 + '</td>';
     var closeTr = '</tr>'
 
 
@@ -27,8 +30,28 @@ function subsubmit() {
     }
 
 
+// function submitMarks() {
+//     }
+
+function addDetail() {
+    var myObj = {};
+    var regKey =  $("#reg").val();
+
+     myObj = {
+        reg : regKey,
+        name : $("#name").val(),
+        class: $("#stuClass").val(),
+        email: $("#email").val(),
+        schoolname :$("#schoolname").val(),
+        city: $("#city").val(),
+    }
+    // console.log("object is " , myObj);
+    console.log("reg key is " , regKey)
+    studentDict = {[regKey] : myObj};
+    console.log(studentDict);
+    
+}
+
 function submitMarks() {
     window.location = "./submitform.html";
-    }
-
-
+}
