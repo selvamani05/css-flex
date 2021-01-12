@@ -11,7 +11,7 @@
         openTr +='<td>' + (k+1) + '</td>';
         openTr +='<td>' + students[k].name + '</td>';
         openTr +='<td>' + students[k].reg + '</td>';
-        
+        openTr +='<td>' + students[k].reg + '</td>';
         
         var subs = students[k].subjects;
         var sum=parseInt(0);
