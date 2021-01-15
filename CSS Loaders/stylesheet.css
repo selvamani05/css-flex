@@ -15,7 +15,7 @@ html {
 .bouncer div {
     width: 20px;
     height: 20px;
-    background-color: red;
+    background-color: turquoise;
     border-radius: 50%;
     animation: bouncer 0.5s cubic-bezier(.19, .57, .3, .98) infinite alternate;
     opacity: 0.9;
